@@ -18,7 +18,7 @@ export default function Page() {
         </div>
         <div className={styles.txtBox}>
           <p>Hello! I am David Petre</p>
-          <p>I am an incoming third-year at the&nbsp;
+          <p>I am a rising third-year at the&nbsp;
             <a href="https://www.uchicago.edu/en" target="_blank">University of Chicago</a>
              &nbsp;studying Computer Science and Economics.
           </p>
