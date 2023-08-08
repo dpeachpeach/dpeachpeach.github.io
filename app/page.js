@@ -3,17 +3,11 @@ import Image from 'next/image'
 import profilePic from '../public/profilepic.png'
 import altPic from '../public/altpic.png'
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { library } from '@fortawesome/fontawesome-svg-core'
 import {useState} from 'react'
-import styles from './page.module.css'
-library.add(faGithub, faTwitter, faLinkedin)
 
 export default function Page() {
 
   const [image, setImage] = useState(profilePic)
-  //const image = profilePic
   return (
     <>
       <div className="h-[30rem] w-[45rem] absolute top-[4rem] grid grid-cols-1 grid-rows-2">
@@ -40,7 +34,7 @@ export default function Page() {
               &nbsp;studying Computer Science and Economics.
             </p>
             <br />
-            <p>My <Link href="/My_Resume.pdf"
+            <p>My <Link href="/David_Petre_Resume.pdf"
               className="underline decoration-sky-500 text-indigo-950 hover:text-blue-700">
               Resume</Link>.
             </p>
@@ -87,34 +81,3 @@ export default function Page() {
 }
 
 
-/*
-<div className= ''>
-<Image 
-//  onMouseEnter={() => setImage(altPic)}
-//  onMouseOut={() => setImage(profilePic)}
-  src={image} 
-  alt="Profile Picture"
-  fill
-/>
-</div>
-<div className='relative'>
-<p>Hello! I am David Petre</p>
-<p>I am a rising third-year at the&nbsp;
-  <a href="https://www.uchicago.edu/en" target="_blank">University of Chicago</a>
-   &nbsp;studying Computer Science and Economics.
-</p>
-<p>I am curious about a lot of things, especially related to technology
-  and statistics, but some of my interests include:
-</p>
-<ul>
-  <li>Robotics.</li>
-  <li>Studying games of chance.</li>
-  <li>Starcraft 2.</li>
-</ul>
-</div>
-<div className='relative'>
-<a href="https://github.com/dpeachpeach" style={{gridColumn:2}}target="_blank"><FontAwesomeIcon className='' icon={faGithub} /></a>
-<a href="https://twitter.com/originalwololo" style={{gridColumn:3}}target="_blank"><FontAwesomeIcon className='' icon={faTwitter} /></a>
-<a href="https://www.linkedin.com/in/david-petre-1079b61b7/" style={{gridColumn:4}}target="_blank"><FontAwesomeIcon className='' icon={faLinkedin} /></a>
-</div>
-*/
