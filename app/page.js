@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <>
       <div className="h-[30rem] w-[45rem] absolute top-[4rem] grid grid-cols-1 grid-rows-2">
+
         <div className="grid grid-cols-9 grid-rows-6 relative">
           <div className="col-start-4 col-end-7 relative row-span-6 w-[] h-[]">
             <Image
@@ -22,7 +23,9 @@ export default function Page() {
             />
           </div>
         </div>
+
         <div className="grid grid-cols-9 grid-rows-6 relative">
+
           <div className="col-start-2 col-end-9 relative row-span-4 mt-3 text-center">
             <p>Hello! I am David Petre.</p>
             <br />
@@ -34,11 +37,12 @@ export default function Page() {
               &nbsp;studying Computer Science and Economics.
             </p>
             <br />
-            <p>My <Link href="/David_Petre_Resume.pdf"
+            <p>My <Link href="/David_Petre_Resume.pdf" target="_blank"
               className="underline decoration-sky-500 text-indigo-950 hover:text-blue-700">
               Resume</Link>.
             </p>
           </div>
+
           <div className="row-start-5 row-span-2 relative col-start-4 col-end-7 ">
             <div className="grid grid-cols-3 grid-rows-1 gap-1">
 
@@ -74,7 +78,9 @@ export default function Page() {
 
             </div>
           </div>
+
         </div>
+
       </div>
     </>
   )
