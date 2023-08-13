@@ -37,7 +37,7 @@ export default function Page() {
               &nbsp;studying Computer Science and Economics.
             </p>
             <br />
-            <p>My <Link href="/David_Petre_Resume.pdf" target="_blank"
+            <p>My <Link href="/Petre_David_Resume.pdf" target="_blank"
               className="underline decoration-sky-500 text-indigo-950 hover:text-blue-700">
               Resume</Link>.
             </p>
