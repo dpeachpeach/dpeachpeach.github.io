@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="font-serif bg-[#fffeea] flex justify-center">
         {children}
-        <Footer />
       </body>
     </html>
   </>
