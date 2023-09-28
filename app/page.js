@@ -29,7 +29,7 @@ export default function Page() {
           <div className="col-start-2 col-end-9 relative row-span-4 mt-3 text-center">
             <p>Hello! I am David Petre.</p>
             <br />
-            <p>I am a rising third-year at the&nbsp;
+            <p>I am a third-year at the&nbsp;
               <a href="https://www.uchicago.edu/en" target="_blank"
                 className="underline decoration-sky-500 text-indigo-950 hover:text-blue-700">
                 University of Chicago
